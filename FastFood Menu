@@ -1,0 +1,30 @@
+#include<stdio.h>
+main()
+{ int a;
+  printf("Enter food item of your choice:\n 1.Pizza Rs239\n 2.Burger Rs129\n 3.Pasta Rs179\n 4.French fries Rs99\n 5.Sandwhich Rs149\n 6.Momos Rs119\n");
+  scanf("%d",&a);
+  
+  switch(a)
+  { case 1: printf(" Item:Pizza Cost:Rs239");
+    break;
+    case 2: printf(" Item:Burger Cost:Rs129");
+    break;
+    case 3: printf(" Item:Pasta Cost:Rs179");
+    break;
+    case 4: printf(" Item:French fries Cost:Rs99");
+    break;
+    case 5: printf(" Item:Sandwhich Cost:Rs149");
+    break;
+    case 6: printf("Iten:Momos Cost:Rs119");
+    break;
+    default:
+    	printf("NOT INCLUDED IN MENU.");
+  }
+  return 0;
+}
+//1.Pizza, Rs 239
+//2.Burger, Rs 129
+//3.Pasta, Rs 179
+//4.French Fries, Rs 99
+//5.Sandwich, Rs 149
+//6.momos, Rs119
